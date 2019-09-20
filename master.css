@@ -2,7 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: content-box;
+  font-family: "Avneir"
 }
+
+@font-face {
+    font-family: 'Avneir'; /*a name to be used later*/
+    src: url('../html-css-hubspot/font/AvenirNextLTPro-Regular.otf'); /*URL to font*/
+}
+
 
 /* Beginning of Header */
 
@@ -73,10 +80,16 @@
   padding: 100px 20px 50px 20px;
 }
 
+#blocks {
+  max-width: 260px;
+}
+
 .container2 {
   height: 150px;
-  background-color: pink;
+  background: #f5f8fa;
   background-size: cover;
+  padding: 0px 30px 0px 30px;
+  text-align: center;
 }
 
 /* Beginning of Section 3 */
