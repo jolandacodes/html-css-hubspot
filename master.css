@@ -1,48 +1,123 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: content-box;
 }
 
 /* Beginning of Header */
 
 .header1 {
-  width: 100%;
-  height: 100px;
-  background-color: grey;
+  height: 30px;
+  background-color: #113954;
   background-size: cover;
-  padding: 0 2rem;
+  padding: 20px 20px 20px 20px;
+}
+
+.bluenavbar {
+  height: 20px;
+  background-color: pink;
+  background-size: cover;
 }
 
 .header2 {
-  width: 100%;
-  height: 80x;
-  background-color: lightblue;
+  height: 60px;
+  background-color: #dce0e2;
   background-size: cover;
-  padding: 0 2rem;
+  padding: 20px 20px 20px 20px;
+}
+
+.greynavbar {
+  width: 100%;
+  height: 20px;
+  background-color: pink;
+  background-size: cover;
 }
 
 .header3 {
-  width: 100%;
-  height: 80px;
-  background-color: red;
+  height: 60px;
+  background-color: white;
   background-size: cover;
-  padding: 0 2rem;
+  padding: 20px 20px 20px 20px;
+}
+
+.whitenavbar {
+  width: 100%;
+  height: 20px;
+  background-color: pink;
+  background-size: cover;
 }
 
 /* Beginning of Sections */
 
+
 .section1 {
-  width: 100%;
-  height: 650px;
+  height: 500px;
+  height: 300px;
   background-color: orange;
   background-size: cover;
-  padding: 0 2rem;
+  padding: 60px 20px 60px 20px;
 }
 
-/* .section2 {
+.container1 {
   width: 100%;
-  height: 350px;
+  height: 300px;
+  background-color: pink;
+  background-size: cover;
+}
+.section2 {
+  height: 250px;
   background: #f5f8fa;
   background-size: cover;
-  padding: 100px 0 50px;}
-} */
+  padding: 100px 20px 50px 20px;
+}
+
+.container2 {
+  height: 150px;
+  background-color: pink;
+  background-size: cover;
+}
+/* Section 3 Containers  */
+
+.section3 {
+  height: 500px;
+  background: grey;
+  background-size: cover;
+  padding: 100px 20px 50px 20px;
+}
+
+.s3container1 {
+  width: 100%;
+  height: 200px;
+  background: blue;
+  background-size: cover;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  float: left;
+  clear: both;
+}
+
+.s3container2 {
+  width: 31%;
+  height: 200px;
+  background: purple;
+  background-size: cover;
+  margin-right: 34px;
+  float: left;
+}
+
+.s3container3 {
+  width: 31%;
+  height: 200px;
+  background: yellow;
+  background-size: cover;
+  margin-right: 34px;
+  float: left;
+}
+
+.s3container4 {
+  width: 31%;
+  height: 200px;
+  background: pink;
+  background-size: cover;
+  float: left;
+}
