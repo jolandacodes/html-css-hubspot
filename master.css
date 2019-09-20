@@ -47,7 +47,9 @@
   background-size: cover;
 }
 
-/* Beginning of Sections */
+
+/* Beginning of Section 2 */
+
 
 
 .section1 {
@@ -76,13 +78,15 @@
   background-color: pink;
   background-size: cover;
 }
-/* Section 3 Containers  */
+
+/* Beginning of Section 3 */
+
 
 .section3 {
   height: 500px;
   background: grey;
   background-size: cover;
-  padding: 100px 20px 50px 20px;
+  padding: 100px 20px 100px 20px;
 }
 
 .s3container1 {
@@ -98,7 +102,7 @@
 
 .s3container2 {
   width: 31%;
-  height: 200px;
+  height: 300px;
   background: purple;
   background-size: cover;
   margin-right: 34px;
@@ -107,7 +111,7 @@
 
 .s3container3 {
   width: 31%;
-  height: 200px;
+  height: 300px;
   background: yellow;
   background-size: cover;
   margin-right: 34px;
@@ -116,8 +120,64 @@
 
 .s3container4 {
   width: 31%;
-  height: 200px;
+  height: 300px;
   background: pink;
   background-size: cover;
   float: left;
+}
+
+/* Beginning of Section 4 */
+
+
+.section4 {
+  height: 300px;
+  padding: 130px 0;
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+}
+
+.s4container {
+  width: 100%;
+  height: 150px;
+  background-color: pink;
+  background-size: cover;
+}
+
+/* Beginning of Section 5 */
+
+.section5 {
+  height: 60px;
+  background-color: lightblue;
+  background-size: cover;
+  padding: 20px 20px 20px 20px;
+}
+
+.s5container {
+  width: 100%;
+  height: 20px;
+  background-color: pink;
+  background-size: cover;
+}
+
+/* Beginning of Section 6 */
+
+.section6 {
+  height: 60px;
+  background-color: white;
+  background-size: cover;
+  padding: 20px 20px 20px 20px;
+}
+
+.s6container {
+  width: 100%;
+  height: 20px;
+  background-color: pink;
+  background-size: cover;
+}
+/* Beginning of Footer */
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: #33475b;
+  padding: 130px 0;
 }
