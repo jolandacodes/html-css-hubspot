@@ -60,7 +60,6 @@
 
 
 .section1 {
-  height: 500px;
   height: 300px;
   background-color: orange;
   background-size: cover;
@@ -74,10 +73,19 @@
   background-size: cover;
 }
 .section2 {
+  position: relative;
   height: 250px;
   background: #f5f8fa;
   background-size: cover;
-  padding: 100px 20px 50px 20px;
+  padding: 100px 20px 100px 20px;
+}
+
+.section2 h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.3125;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 #blocks {
@@ -85,10 +93,14 @@
 }
 
 .container2 {
-  height: 150px;
+  position: absolute;
+  width: 800px;
+  top: 50%;
+  left: 50%;
   background: #f5f8fa;
   background-size: cover;
   padding: 0px 30px 0px 30px;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
