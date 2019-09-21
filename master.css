@@ -168,7 +168,7 @@ h4 {
 .s3sub2 {
   width: 50%;
   height: 260px;
-  background: orange;
+  background: yellow;
   border-radius: 4px;
   margin-bottom: 20px;
   float: left;
@@ -182,7 +182,6 @@ h4 {
 .s3sub2 li {
 display: inline-block;
 }
-
 
 /* Beginning of Section 3 Part 2 (Book Img)*/
 
