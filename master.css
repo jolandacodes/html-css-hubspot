@@ -10,6 +10,13 @@
     src: url('../html-css-hubspot/font/AvenirNextLTPro-Regular.otf'); /*URL to font*/
 }
 
+a {
+  color: white;
+}
+
+h4 {
+
+}
 
 /* Beginning of Header */
 
@@ -55,7 +62,7 @@
 }
 
 
-/* Beginning of Section 2 */
+/* Beginning of Section 1 (Main Img)*/
 
 
 
@@ -72,6 +79,9 @@
   background-color: pink;
   background-size: cover;
 }
+
+/* Beginning of Section 2 (Building Block Img)*/
+
 .section2 {
   position: relative;
   height: 250px;
@@ -92,7 +102,7 @@
   max-width: 260px;
 }
 
-.container2 {
+.s2container1 {
   position: absolute;
   width: 800px;
   top: 50%;
@@ -104,26 +114,77 @@
   text-align: center;
 }
 
-/* Beginning of Section 3 */
+/* Beginning of Section 3 Part 1(Book Img)*/
 
 
 .section3 {
   height: 500px;
-  background: grey;
+  background: #f5f8fa;
   background-size: cover;
-  padding: 100px 20px 100px 20px;
+  padding: 0px 20px 100px 20px;
 }
 
 .s3container1 {
   width: 100%;
-  height: 200px;
-  background: blue;
-  background-size: cover;
+  height: 260px;
+  background: pink;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+#bookimg {
+  max-width: 200px;
+  padding-left: 20%;
+  float: left;
+}
+
+.sub1orangebutton {
+  position: relative;
+  clear: both;
+  padding: 50px;
+}
+
+#orangebutton {
+  position: absolute;
+  background-color: #ff7a59;
+  border-radius: 2px;
+  padding: 0.75rem 1.5rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.s3sub1 {
+  width: 50%;
+  height: 260px;
+  background: red;
   border-radius: 4px;
   margin-bottom: 20px;
   float: left;
-  clear: both;
 }
+
+.s3sub2 {
+  width: 50%;
+  height: 260px;
+  background: orange;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  float: left;
+
+}
+.s3sub2 h2 {
+  font-weight: 600;
+  margin: 0.5em 0;
+}
+
+.s3sub2 li {
+display: inline-block;
+}
+
+
+/* Beginning of Section 3 Part 2 (Book Img)*/
 
 .s3container2 {
   width: 31%;
