@@ -64,6 +64,7 @@ a {
 
 
 .section1 {
+  position: relative;
   height: 775px;
   background-image: url(../html-css-hubspot/img/background.jpg);
   background-size: cover;
@@ -72,8 +73,32 @@ a {
 }
 
 .s1container1 {
+  position: absolute;
+  width: 400px;
+  top: 10%;
+  left: 10%;
 }
 
+#orangebutton1 {
+  position: absolute;
+  background-color: #ff7a59;
+  border-radius: 2px;
+  padding: 1.625rem 3rem;
+  float: left;
+  clear: both;
+}
+
+.s1container1 h1{
+  font-size: 3.438rem;
+  line-height: 1.1818;
+  color: #33475b;
+  padding: 0 0 30px 0;
+}
+
+.s1container1 p{
+  color: #33475b;
+  padding: 0 0 30px 0;
+}
 /* Beginning of Section 2 (Building Block Img)*/
 
 .section2 {
@@ -149,7 +174,6 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
 .s3sub1 {
