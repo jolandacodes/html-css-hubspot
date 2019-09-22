@@ -179,7 +179,7 @@ a {
 
 
 .section3 {
-  height: 700px;
+  height: 800px;
   background: #f5f8fa;
   background-size: cover;
   padding: 0px 120px 100px 120px;
@@ -259,10 +259,9 @@ a {
 
 .s3container2 {
   width: 27%;
-  height: 400px;
   background: #fff;
   border-radius: 4px;
-  margin-right: 25px;
+  margin-right: 36px;
   float: left;
   padding: 20px;
 }
@@ -270,10 +269,9 @@ a {
 
 .s3container3 {
   width: 27%;
-  height: 400px;
   background: #fff;
   border-radius: 4px;
-  margin-right: 25px;
+  margin-right: 36px;
   float: left;
   padding: 20px;
 
@@ -281,7 +279,6 @@ a {
 
 .s3container4 {
   width: 27%;
-  height: 400px;
   background: #fff;
   border-radius: 4px;
   float: left;
@@ -302,6 +299,28 @@ a {
   margin-top: 1em;
   margin-bottom: 1em;
   color: #33475b;
+}
+
+.s3content2 li {
+  list-style-type: none;
+}
+.s3content2 p {
+  margin-bottom: 15px;
+  margin-top: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid #e0e6ed;
+  padding-top: 2em;
+}
+
+#orangebutton2 {
+  background-color: #ff7a59;
+  border-radius: 2px;
+  padding: 0.75rem 1.5rem;
+  margin-top: 20px;
+  margin-left: 60px;
+  float: left;
+  clear: both;
 }
 /* Beginning of Section 4 */
 
