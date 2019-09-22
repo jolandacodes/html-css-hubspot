@@ -179,7 +179,7 @@ a {
 
 
 .section3 {
-  height: 600px;
+  height: 700px;
   background: #f5f8fa;
   background-size: cover;
   padding: 0px 120px 100px 120px;
@@ -259,9 +259,8 @@ a {
 
 .s3container2 {
   width: 27%;
-  height: 300px;
-  background: purple;
-  background-size: cover;
+  height: 400px;
+  background: #fff;
   border-radius: 4px;
   margin-right: 25px;
   float: left;
@@ -271,10 +270,10 @@ a {
 
 .s3container3 {
   width: 27%;
-  height: 300px;
-  background: yellow;
-  background-size: cover;
-  margin-right: 25px;;
+  height: 400px;
+  background: #fff;
+  border-radius: 4px;
+  margin-right: 25px;
   float: left;
   padding: 20px;
 
@@ -282,14 +281,28 @@ a {
 
 .s3container4 {
   width: 27%;
-  height: 300px;
-  background: pink;
-  background-size: cover;
+  height: 400px;
+  background: #fff;
+  border-radius: 4px;
   float: left;
   padding: 20px;
-
 }
 
+.s3containerpics {
+  width: 250px;
+  height: 180px;
+}
+
+.s3content h2 {
+  text-align: center;
+  color: #33475b;
+}
+
+.s3content p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #33475b;
+}
 /* Beginning of Section 4 */
 
 
