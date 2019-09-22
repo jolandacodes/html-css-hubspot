@@ -179,7 +179,7 @@ a {
 
 
 .section3 {
-  height: 500px;
+  height: 600px;
   background: #f5f8fa;
   background-size: cover;
   padding: 0px 120px 100px 120px;
@@ -258,30 +258,36 @@ a {
 /* Beginning of Section 3 Part 2 (Book Img)*/
 
 .s3container2 {
-  width: 31%;
+  width: 27%;
   height: 300px;
   background: purple;
   background-size: cover;
-  margin-right: 34px;
+  border-radius: 4px;
+  margin-right: 25px;
   float: left;
+  padding: 20px;
 }
 
 
 .s3container3 {
-  width: 31%;
+  width: 27%;
   height: 300px;
   background: yellow;
   background-size: cover;
-  margin-right: 34px;
+  margin-right: 25px;;
   float: left;
+  padding: 20px;
+
 }
 
 .s3container4 {
-  width: 31%;
+  width: 27%;
   height: 300px;
   background: pink;
   background-size: cover;
   float: left;
+  padding: 20px;
+
 }
 
 /* Beginning of Section 4 */
