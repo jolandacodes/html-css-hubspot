@@ -327,7 +327,7 @@ a {
 
 .section4 {
   position: relative;
-  height: 300px;
+  height: 550px;
   padding: 130px 0;
   background-image: linear-gradient(45deg, #00a4bd, #00bda5);
 }
@@ -353,6 +353,43 @@ a {
   text-align: center;
   padding-top: 2em;
   color: #fff;
+}
+
+.bluegridcontainer {
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  bottom: 0%;
+  background-color: yellow;
+}
+
+.bluegrid1 {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+}
+
+.bluegriditem1 {
+  width: 200px;
+  height: 130px;
+  background-color: pink;
+  padding: 20px;
+  float: left;
+}
+
+.bluegrid2 {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  bottom: 0%;
+}
+
+.bluegriditem2 {
+  width: 200px;
+  height: 130px;
+  background-color: blue;
+  padding: 20px;
+  float: left;
 }
 
 /* Beginning of Section 5 */
