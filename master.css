@@ -20,7 +20,6 @@ a {
 .header1 {
   height: 30px;
   background-color: #113954;
-  background-size: cover;
   padding: 20px 20px 20px 20px;
 }
 
@@ -41,11 +40,9 @@ a {
   float: right;
 }
 
-
 .header2 {
   height: 30px;
   background-color: #dce0e2;
-  background-size: cover;
   padding: 20px 20px 20px 20px;
 }
 
@@ -99,9 +96,8 @@ a {
 
 .whitenavbar a {
   color: #33475b;}
+
 /* Beginning of Section 1 (Main Img)*/
-
-
 
 .section1 {
   position: relative;
@@ -176,7 +172,6 @@ a {
 }
 
 /* Beginning of Section 3 Part 1(Book Img)*/
-
 
 .section3 {
   height: 800px;
@@ -322,7 +317,7 @@ a {
   float: left;
   clear: both;
 }
-/* Beginning of Section 4 */
+/* Beginning of Section 4 (Blue Gradient)*/
 
 
 .section4 {
@@ -360,7 +355,6 @@ a {
   width: 100%;
   height: 350px;
   bottom: 0%;
-  background-color: yellow;
 }
 
 .bluegrid1 {
