@@ -81,7 +81,7 @@ a {
 }
 
 #hubspotlogo {
-  width: 200px;
+  width: 140px;
   height: 70px;
 }
 
@@ -102,7 +102,7 @@ a {
 .section1 {
   position: relative;
   height: 775px;
-  background-image: url(../html-css-hubspot/img/background.jpg);
+  background-image: url(images/SfondoHub.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -193,6 +193,7 @@ a {
 
 #bookimg {
   max-width: 250px;
+  max-height: 780px;
   padding-left: 20%;
   float: left;
 }
@@ -424,4 +425,286 @@ a {
   height: 300px;
   background-color: #33475b;
   padding: 130px 0;
+}
+
+section.infogen{
+  width:100%;
+  background:#F4F8FA;
+}
+
+.global-info{
+  width: 70%;
+  height: 900px;
+  margin-left:15%;
+}
+
+.info1{
+  width:100%;
+  height:450px;
+  background:#F4F8FA;
+}
+
+.info1-1{
+  float:left;
+  width:35%;
+  height:450px;
+}
+
+.info1-1 h1{
+  color:#33475B;
+  padding-top:100px;
+  font-size:50px;
+  font-family: "AvenirNextLTPro-Bold.otf";
+}
+
+.info1-1 p{
+  color:#33475B;
+  margin-top:20px;
+  display:block;
+  width: 80%;
+}
+
+.info1-2{
+  float:left;
+  width:65%;
+  height:450px;
+}
+
+.cliente-global{
+  width: 100%;
+  height:200px;
+  margin-top: 200px;
+}
+
+div.cliente{
+  float:left;
+  width: 20%;
+  height:30%;
+  margin-left: 5%;
+  background:#F4F8FA;
+}
+
+div.cliente img{
+  width: 90%;
+}
+
+.info2{
+  width:100%;
+  height:450px;
+  background:#F4F8FA;
+}
+
+.info2-1{
+  float:left;
+  width:65%;
+  height:450px;
+}
+
+.info2-1 h1{
+  color:#33475B;
+  font-size: 40px;
+  font-family: "AvenirNextLTPro-Bold.otf";
+  width: 70%;
+}
+
+.info2-1 p{
+  color:#33475B;
+  width: 70%;
+  margin-top:25px;
+}
+
+.info2-1 a{
+  text-decoration: none;
+  color:white;
+  display:inline-block;
+  padding: 26px 30px;
+  background:#FF7A59;
+  font-size:18px;
+  margin-top:30px;
+  border-radius: 5px;
+}
+
+.info2-1 a:hover{
+  opacity:0.9;
+}
+
+.info2-2{
+  float:left;
+  width:35%;
+  height:450px;;
+}
+
+.donna{
+  height:350px;
+  background:#F2547D;
+  width:90%;
+  border-radius: 100%;
+}
+
+.donna img{
+  width: 100%;
+}
+
+
+/* |quarta sezione */
+
+.footer-global{
+  height: 700px;
+  background:#33475B;
+}
+
+.footer-top,
+.footer-middle,
+.footer-bottom{
+  width:80%;
+  margin-left: 10%;
+}
+
+.footer-top{
+  width:80%;
+  height: 50%;
+  background:#33475B;
+}
+
+.foot-top{
+  float:left;
+  width: 25%;
+  height: 100%;
+}
+
+.foot-top ul{
+  list-style-type: none;
+  margin-top: 20%;
+}
+
+.foot-top ul li:first-child{
+  color: white;
+}
+
+.foot-top ul li{
+  margin-bottom: 27px;
+}
+
+.foot-top ul li a{
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+}
+
+.foot-top ul li a:hover{
+  color:#0091ae;
+}
+
+/* footer middle */
+.footer-middle{
+  height: 20%;
+  background:#33475B;
+}
+
+.foot-middle ul{
+  list-style-type: none;
+}
+
+.foot-middle a{
+  text-decoration: none;
+}
+
+.foot-middle1{
+  margin-left: 73%;
+  margin-bottom: 15px;
+}
+
+.foot-middle2{
+  margin-left: 73%;
+}
+
+.hub-sup{
+  color:#33475B;
+  display:inline-block;
+  padding: 11px 36px;
+  background:white;
+  font-size:9px;
+  margin-top:0px;
+  border-radius: 5px;
+}
+
+.foot-middle ul li a{
+  float: left;
+  margin-right: 35px;
+  color: #CBD6E2;
+  font-size: 29px;
+}
+
+.foot-middle ul li a:hover{
+  color:#0091ae;
+}
+
+.footer-bottom{
+  height: 30%;
+}
+
+.foot-bot1{
+  height: 30%;
+  width: 60%;
+  margin-left: 20%;
+  background: #33475B;
+}
+
+.foot-bot1 ul{
+  list-style-type: none;
+  padding-top: 1%;
+  margin-left: 150px;
+}
+
+.foot-bot1 ul li{
+  float:left;
+  margin-right: 50px;
+  font-size: 17px;
+}
+
+.foot-bot1 ul li a{
+  text-decoration: none;
+  color:#CBD6E2;
+}
+
+.foot-bot1 ul li a:hover{
+  text-decoration: none;
+  color:#0091ae;
+}
+
+.foot-bot2{
+  height: 69%;
+  width: 100%;
+}
+
+.foot-bot2-1,
+.foot-bot2-2{
+  float: left;
+  width:50%;
+  height: 100%;
+}
+
+.foot-bot2-1 img{
+  padding-top: 20px;
+}
+
+.foot-bot2-1 h3{
+  color:#CBD6E2;
+}
+
+.foot-bot2-2 a{
+  text-decoration: none;
+  color:#CBD6E2;
+  font-size: 19px;
+  padding-top: 20px;
+  display: inline-block;
+  float: right;
+}
+
+.foot-bot2-2 a:hover{
+  color:#0091ae;
+}
+
+#pp{
+  margin-left:50px;
 }
